@@ -1,0 +1,146 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    display: block;
+}
+
+.navbar-header {
+    width: 100%;
+    height: 40px;
+    padding: 15px 25px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(80deg, rgb(154, 3, 129), rgb(175, 76, 92), rgb(74, 74, 229));
+}
+
+.link {
+    color: white;
+    text-decoration: none;
+    margin: 0px 15px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.signup_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 90vh;
+}
+
+.signup_form {
+    border: 1px solid grey;
+    padding: 20px;
+    border-radius: 10px;
+    width: 30%;
+}
+
+.signup_form form input {
+    padding: 8px;
+    border-radius: 5px;
+    margin-top: 2px;
+    width: 100%;
+    border: 1px solid rgb(216, 213, 213);
+}
+
+.signup_form form button, .signup_form button {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid rgb(216, 213, 213);
+}
+
+.signup_form form button {
+    background-color: rgb(17, 80, 201);
+    color: white;
+}
+
+.signup_form button {
+    background-color: rgb(3, 177, 18);
+    color: white;
+}
+
+.signup_btn {
+    margin-top: 8px;
+}
+
+.btn_input {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.post_container {
+    display: flex;
+    margin-top: 40px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.post_form {
+    width: 45%;
+    border: 1px dashed gray;
+    padding: 20px;
+}
+.post_form input, .post_form textarea, .post_form button {
+    width: 100%;
+    margin: 10px 0px;
+    padding: 8px;
+}
+.post_form .file {
+    border: 1px solid gray;
+}
+.post_form button {
+    cursor: pointer;
+    background-color: green;
+    color: white;
+}
+
+.posts_container {
+    display: flex;
+    margin-top: 10px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.post {
+    width: 70%;
+    margin: 10px;
+    border: 2px solid #000;
+    padding: 10px;
+    display: flex;
+    text-decoration: none;
+    color: black;
+}
+
+.post img {
+    width: 200px;
+    height: 200px;
+}
+
+.post .post_text {
+    margin-left: 10px;
+}
+
+.post_post {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: 20px 0px;
+}
+
+.post_post img {
+    width: 100%;
+    height: 500px;
+}
+
+.post_post button {
+    width: 10%;
+}
