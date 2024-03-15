@@ -16,7 +16,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background: linear-gradient(80deg, rgb(154, 3, 129), rgb(175, 76, 92), rgb(74, 74, 229));
+    background: linear-gradient(70deg, rgb(236, 92, 212), rgb(237, 41, 73), rgb(73, 73, 101));
 }
 
 .link {
@@ -34,7 +34,7 @@ body {
 }
 
 .signup_form {
-    border: 1px solid grey;
+    border: 1px solid #ccc;
     padding: 20px;
     border-radius: 10px;
     width: 30%;
@@ -89,14 +89,17 @@ body {
     border: 1px dashed gray;
     padding: 20px;
 }
+
 .post_form input, .post_form textarea, .post_form button {
     width: 100%;
     margin: 10px 0px;
     padding: 8px;
 }
+
 .post_form .file {
     border: 1px solid gray;
 }
+
 .post_form button {
     cursor: pointer;
     background-color: green;
